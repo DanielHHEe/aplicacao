@@ -2,7 +2,7 @@ require('dotenv').config(); // Carregar variáveis de ambiente
 
 const express = require('express');
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
+
 const cors = require('cors'); // Importação do CORS
 const jwt = require('jsonwebtoken');
 
